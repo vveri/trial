@@ -25,3 +25,7 @@ Some simple maths
 - Import data
 - General Visualization
 - Pre-processing
+
+#Histogram
+x<- rnorm(100)
+hist(x)
