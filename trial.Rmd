@@ -28,4 +28,5 @@ Some simple maths
 
 #Histogram
 x<- rnorm(100)
-hist(x)
+hist(x, breaks=64)
+
