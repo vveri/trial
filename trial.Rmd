@@ -28,5 +28,11 @@ Some simple maths
 
 #Histogram
 x<- rnorm(100)
-hist(x, breaks=64)
+hist(x, breaks=32)
+
+In addition to a histogram, we create a density distribution
+
+```{r}``
+
+plot(density(x))
 
